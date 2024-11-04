@@ -4,7 +4,7 @@
   "description": "Vous allez reproduire une maquette en utilisant tailwind",
   "main": "index.html",
   "scripts": {
-  "build:css": "tailwindcss build -i style.css -o output.css --watch"
+  "build:css": "tailwindcss build -i custom.css -o output.css --watch"
 },
   "keywords": [],
   "author": "",
