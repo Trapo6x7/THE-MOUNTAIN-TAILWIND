@@ -752,6 +752,14 @@ video {
   width: 66.666667%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1078,6 +1086,14 @@ video {
   padding-inline-end: 8rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1280,6 +1296,10 @@ video {
     height: 100vh;
   }
 
+  .xl\:h-full {
+    height: 100%;
+  }
+
   .xl\:w-40 {
     width: 10rem;
   }
@@ -1332,8 +1352,32 @@ video {
     width: 8.333333%;
   }
 
+  .xl\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .xl\:w-4\/6 {
+    width: 66.666667%;
+  }
+
+  .xl\:w-3\/6 {
+    width: 50%;
+  }
+
+  .xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .xl\:w-4\/5 {
+    width: 80%;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:flex-col {
+    flex-direction: column;
   }
 
   .xl\:items-start {
@@ -1370,6 +1414,14 @@ video {
     gap: 2.5rem;
   }
 
+  .xl\:gap-1 {
+    gap: 0.25rem;
+  }
+
+  .xl\:gap-4 {
+    gap: 1rem;
+  }
+
   .xl\:p-10 {
     padding: 2.5rem;
   }
@@ -1396,6 +1448,11 @@ video {
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .xl\:pe-40 {
