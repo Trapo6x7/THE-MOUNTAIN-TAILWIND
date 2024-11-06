@@ -12,18 +12,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section class="bg-hero-img bg-center bg-cover xl:h-screen">
-    <header id="home">
-      <div class="flex justify-between items-center p-5 w-full">
+
+    <header id="home" class="flex justify-center items-center fixed w-full">
+      <div class="sticky flex justify-between items-center p-5 w-4/5">
         <div class="flex items-center">
-          <img src="images/your_logo.png" alt="" class="w-36" />
+          <img src="images/your_logo.png" alt="logo" class="w-36" />
           <p class="size-8 text-3xl font-Roboto">LOGO</p>
         </div>
-        <img src="images/icon-menu.svg" alt="" />
+        <img src="images/icon-menu.svg" alt="menu de navigation" />
       </div>
     </header>
     <main>
-    <section id="features" class="text-neutral-off-white tracking-wide flex flex-col justify-center items-center xl:pt-20">
+    <section id="features" class="text-neutral-off-white tracking-wide flex flex-col justify-center bg-hero-img bg-cover bg-center items-center xl:pt-20 xl:h-screen">
       <p class="font-Rokkitt text-4xl text-center leading-relaxed w-1/3">
         In the hall of the
       </p>
@@ -37,29 +37,34 @@
         <a href="" class="bg-neutral-red px-6 py-3 text-xl">Download</a>
       </div> 
     </section>
-  </section>
+
   <section id="about" class="font-Roboto px-10 xl:flex xl:px-20">
     <article class="flex flex-col justify-center gap-5 items-center w-full py-10">
       <div class="flex flex-col justify-center gap-2 items-center w-full"><img src="images/icone-pencil.png" alt="" class="w-20">
       <h2 class="text-2xl text-neutral-grey text-center">Consectuter Riscus</h2></div>
-      <p class="text-lg text-neutral-grey font-light text-center">Cras justo odio, dapibus ac facilust in, exegetas eget quam. Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-lg text-neutral-grey font-light text-center">Cras justo odio, dapibus ac facilust in, exegetas eget quam. 
+        Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
     </article>
     <article class="flex flex-col justify-center gap-5 items-center w-full py-10">
       <div class="flex flex-col justify-center gap-2 items-center w-full"><img src="images/icone-camera.png" alt="" class="w-20">
       <h2 class="text-2xl text-neutral-grey text-center">Consectuter Riscus</h2></div>
-      <p class="text-lg text-neutral-grey font-light text-center">Cras justo odio, dapibus ac facilust in, exegetas eget quam. Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-lg text-neutral-grey font-light text-center">Cras justo odio, dapibus ac facilust in, exegetas eget quam.
+         Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
     </article>
     <article class="flex flex-col justify-center gap-5 items-center w-full py-10">
       <div class="flex flex-col justify-center gap-2 items-center w-full"><img src="images/icon-signet.png" alt="" class="w-16">
       <h2 class="text-2xl text-neutral-grey text-center">Consectuter Riscus</h2></div>
-      <p class="text-lg text-neutral-grey font-light text-center">Cras justo odio, dapibus ac facilust in, exegetas eget quam. Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-lg text-neutral-grey font-light text-center">Cras justo odio, dapibus ac facilust in, exegetas eget quam.
+         Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
     </article>
   </section>/
-  <section id="blog" class="flex flex-col text-neutral-off-white w-full bg-nuage-img bg-right-top bg-cover z-0 justify-center items-center xl:items-end xl:pe-20">
+  <section id="blog" class="flex flex-col text-neutral-off-white w-full bg-nuage-img bg-right-top bg-cover z-0 
+  justify-center items-center xl:items-end xl:pe-20">
   <article class="font-Rokkitt bg-neutral-cyan bg-opacity-45 p-6 z-10 w-[80%] xl:w-1/2">
      <h2 class="text-4xl pt-14 pb-4 leading-snug">Ligula Mattis Ornare Ultricies</h2>
   <h3 class="text-3xl py-4">Pellentesque Cursus Amet Parturient Etiam</h3>
-  <p class="text-xl py-4">Cras justo odio, dapibus ac facilust in, exegetas eget quam. Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+  <p class="text-xl py-4">Cras justo odio, dapibus ac facilust in, exegetas eget quam. Donec ij elit non mi porta gravida
+     at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
   <div class="flex flex-col gap-10 justify-center items-center pb-6 font-Roboto my-10"> 
     <div class="text-xl flex flex-col justify-center items-center border-2 border-neutral-off-white py-10 px-5 gap-10 md:px-28">
     <h3>Ultricies</h3>
@@ -72,11 +77,13 @@
 </article>
   </section>
   <section id="history">
-    <article class="text-neutral-grey py-14 px-10 font-Rokkitt flex flex-col gap-5 xl:py-20 xl:w-full xl:px-20 xl:flex-row xl:justify-center xl:items-center">
+    <article class="text-neutral-grey py-14 px-10 font-Rokkitt flex flex-col gap-5 xl:py-20 xl:w-full xl:px-20
+     xl:flex-row xl:justify-center xl:items-center">
       <div class="xl:flex xl:flex-col xl:gap-4 xl:w-full">
         <h3 class="text-4xl font-normal ">Lorem ipsum, dolor sit amet, consectetur adipisicing elit. </h3>
       <div>
-        <p class="text-xl font-light">Incidunt molestias in animi fugit obcaecati alias nihil asperiores ullam excepturi porro, earum harum quo corrupti voluptates perspiciatis assumenda saepe fugiat iste nesciunt, 
+        <p class="text-xl font-light">Incidunt molestias in animi fugit obcaecati alias nihil asperiores ullam excepturi porro,
+           earum harum quo corrupti voluptates perspiciatis assumenda saepe fugiat iste nesciunt, 
       enim dolore distinctio sit? Quisquam voluptatem doloribus, vel, labore suscipit assumenda
       a iure aut impedit eaque, in veniam quos.</p>
         <p class="text-xl font-light"> Incidunt molestias in animi fugit obcaecati alias nihil asperiores ullam excepturi porro, 
@@ -92,11 +99,17 @@
     </article>
     <article class="flex flex-col items-center bg-photo-img bg-center bg-cover xl:items-start xl:ps-20 text-neutral-off-white">
       <div class="font-Roboto bg-neutral-cyan bg-opacity-45 p-6 z-10 w-[80%] xl:w-1/2">
-   <p class="text-lg py-4 font-thin italic tracking">Cras justo odio, dapibus ac facilust in, exegetas eget quam. Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-   <p class="text-xl py-4 font-Rokkitt italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellendus nulla officiis nobis obcaecati veritatis pariatur! Modi molestias perspiciatis est veritatis explicabo veniam dolorum unde voluptatum ex minima quod reprehenderit voluptas debitis provident tenetur, vero vitae repudiandae quae voluptate dolor quam officia accusamus. Illo facilis consequatur totam quam quis iste rerum dolorem corporis officia nesciunt. Molestiae dolorum atque tempore maxime.</p>
+   <p class="text-lg py-4 font-thin italic tracking">Cras justo odio, dapibus ac facilust in, exegetas eget quam. 
+    Donec ij elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+   <p class="text-xl py-4 font-Rokkitt italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis 
+    repellendus nulla officiis nobis obcaecati veritatis pariatur! Modi molestias perspiciatis est veritatis explicabo
+     veniam dolorum unde voluptatum ex minima quod reprehenderit voluptas debitis provident tenetur, vero vitae repudiandae
+      quae voluptate dolor quam officia accusamus. Illo facilis consequatur totam quam quis iste rerum dolorem corporis 
+      officia nesciunt. Molestiae dolorum atque tempore maxime.</p>
    <p class="text-xl py-4 font-thin tracking-widest">- Fermentum Dabitus</p>
 <p 
-   class="text-md py-4">Cras justo odio, dapibus ac facilust in. Donec ij elit non mi porta. <br>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+   class="text-md py-4">Cras justo odio, dapibus ac facilust in. Donec ij elit non mi porta. <br>Nullam id dolor id nibh ultricies
+    vehicula ut id elit.</p>
   </div>
  </article>
   </section>
@@ -147,7 +160,8 @@
   </div>
  </div>
   </section>
-  <section id="partenaires" class="flex flex-col justify-center items-center gap-1 xl:p-10 xl:flex-row xl:w-full xl:justify-between">
+  <section id="partenaires" class="flex flex-col justify-center items-center gap-1 xl:p-10 xl:flex-row xl:w-full 
+  xl:justify-between">
     <img src="images/logo-sample-01.jpg" alt="" class="w-80 xl:w-40">
     <img src="images/logo-sample-02.jpg" alt="" class="w-80 xl:w-40">
     <img src="images/logo-sample-03.png" alt="" class="w-80 xl:w-40">
@@ -155,16 +169,22 @@
     <img src="images/logo-sample-05.jpg" alt="" class="w-80 xl:w-40">
     <img src="images/logo-sample-06.png" alt="" class="w-80 xl:w-40">
   </section>
-  <section id="contact" class="bg-news-img bg-center bg-cover py-14 px-10 font-Rokkitt flex flex-col justify-start gap-5 text-neutral-off-white xl:px-20">
+  <section id="contact" class="bg-news-img bg-center bg-cover py-14 px-10 font-Rokkitt flex flex-col
+   justify-start gap-5 text-neutral-off-white xl:px-20">
     <h2 class="text-4xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
     </h2>
-    <p class="text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam exercitationem repellat praesentium nostrum ratione consequatur corporis iure beatae fugiat temporibus. Quasi, tempore atque quibusdam nam accusantium est, repellat facere officia ea, perferendis sint earum! Delectus reprehenderit ipsa quo voluptatibus debitis?</p>
+    <p class="text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam exercitationem repellat praesentium 
+      nostrum ratione consequatur corporis
+       iure beatae fugiat temporibus. Quasi, tempore atque quibusdam nam accusantium est, repellat facere 
+       officia ea, perferendis sint earum! Delectus reprehenderit ipsa quo voluptatibus debitis?</p>
     <input class="p-2" type="text" placeholder="Your Email Here...">
-    <a href="" class="text-neutral-off-white bg-neutral-red py-2 text-xl w-1/2 text-center tracking-tight xl:w-1/5">Submit newsletter</a>
+    <a href="" class="text-neutral-off-white bg-neutral-red py-2 text-xl w-1/2 text-center tracking-tight xl:w-1/5">Submit
+       newsletter</a>
   </section>
 </main>
 </body>  
-<footer class="bg-[#24323B] font-Rokkitt px-10 pt-10 pb-10 text-neutral-off-white xl:flex xl:flex-row xl:items-center xl:justify-between">
+<footer class="bg-[#24323B] font-Rokkitt px-10 pt-10 pb-10 text-neutral-off-white xl:flex xl:flex-row xl:items-center 
+xl:justify-between">
   <div class="xl:items-start xl:justify-center xl:flex xl:flex-col xl:"><h4 class="text-4xl pb-5">Your logo</h4>
 <p class="text-xl">© 2016 Your Company. Designed and Developed by <span class="text-[#38C4D4]">The Maitre jet d'ail</span></p>
 </div>
